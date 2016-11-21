@@ -290,9 +290,7 @@ div#toc >ul::before {
     padding-left:10px;
 }
 
-li.dropdownActive a {
-    font-weight: bold;
-}
+
 
 
 .post-content a.fa-rss {
@@ -421,6 +419,15 @@ a.accordion-toggle, a.accordion-collapsed {
     font-size: 12px;   
 }
 
+#bs-example-navbar-collapse-1 > ul > li.active{
+    margin-bottom: 1px;
+}
+
+
+#bs-example-navbar-collapse-1 > ul > li.active > a {
+    font-weight: 400;
+}
+
 .nav li a {
     font-size: 14px;
     line-height: 18px;
@@ -480,6 +487,7 @@ span.projectTitle {
     margin-left: 10px;
     display: inline-block;
     color:white;
+    cursor: default;
 }
 
 .footer {
@@ -905,7 +913,7 @@ span.soft {
 
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #444;
+        color: white;
     }
 }
 
