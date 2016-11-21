@@ -1,3 +1,9 @@
+.container-bg{
+    background-color: #215E8A;
+    width: 100%;
+    height: 100%;
+}
+
 .summary {
     color: #808080;
     border-left: 5px solid #ED1951;
@@ -40,7 +46,7 @@ a[data-toggle="tooltip"] {
 
 .navbar-inverse {
     background-color: #215E8A;
-    border-color: #dadada;
+    border-color: #215E8A;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar{
@@ -79,7 +85,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    background-color: #215E8A;
 }
 
 .btn-primary:hover,
