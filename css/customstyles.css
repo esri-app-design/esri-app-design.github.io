@@ -416,6 +416,11 @@ a.accordion-toggle, a.accordion-collapsed {
     font-weight: 700;
 }
 
+
+#bs-example-navbar-collapse-1 > ul > li > a{
+    font-size: 12px;   
+}
+
 .nav li a {
     font-size: 13px;
     line-height: 18px;
