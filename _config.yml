@@ -30,7 +30,7 @@ exclude:
 
 feedback_subject_line: app design
 
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: nblack@esri.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 feedback_disable: true
@@ -53,52 +53,19 @@ kramdown:
  syntax_highlighter: rouge
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
-collections:
-  tooltips:
-    output: true
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: false
-      sidebar: home_sidebar
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      comments: true
-      search: false
-      tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: false
-      sidebar: home_sidebar
-
-# these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+- collector_sidebar
+- patterns_sidebar
+- explorer_sidebar
+- icons_sidebar
+- navigator_sidebar
+- workforce_mobile_sidebar
+- workforce_web_sidebar
+
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://idratherbewriting.com
+url: http://www.esri.com
