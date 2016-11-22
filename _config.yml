@@ -86,3 +86,6 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 # needed for sitemap.xml file only
 url: http://www.esri.com
+
+
+google_analytics: UA-87926805-1
