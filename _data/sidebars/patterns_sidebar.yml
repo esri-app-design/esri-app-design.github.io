@@ -24,12 +24,12 @@ entries:
 
 
   - title: Components
-    url: /patterns_map_item.html
+    url: /patterns_map_card.html
     output: web
 
     folderitems:
-    - title: Map Item
-      url: /patterns_map_item.html
+    - title: Map Card
+      url: /patterns_map_card.html
       output: web
 
     - title: Info Panel
