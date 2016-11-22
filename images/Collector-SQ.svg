@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Collector-SQ</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-350.000000, -380.000000)">
+            <g id="Group-13" transform="translate(350.000000, 277.000000)">
+                <g id="Group-11" transform="translate(0.000000, 103.000000)">
+                    <g id="Group-10">
+                        <g id="Collector-SQ">
+                            <g id="Page-1">
+                                <g>
+                                    <g id="Collector-SQ">
+                                        <rect id="Rectangle" fill="#4DAFE2" x="0" y="0" width="65" height="65" rx="8"></rect>
+                                        <path d="M49.5,17 L44.17,17 L43.5,15 L39.5,15 C39.5,11.1340068 36.3659932,8 32.5,8 C28.6340068,8 25.5,11.1340068 25.5,15 L21.5,15 L20.83,17 L15.5,17 C13.8431458,17 12.5,18.3431458 12.5,20 L12.5,54 C12.5,55.6568542 13.8431458,57 15.5,57 L49.5,57 C51.1568542,57 52.5,55.6568542 52.5,54 L52.5,20 C52.5,18.3431458 51.1568542,17 49.5,17 L49.5,17 Z M32.5,12 C34.1568542,12 35.5,13.3431458 35.5,15 C35.5,16.6568542 34.1568542,18 32.5,18 C30.8431458,18 29.5,16.6568542 29.5,15 C29.5,13.3431458 30.8431458,12 32.5,12 Z M17.5,51 L17.5,22 L47.5,22 L47.5,36 L32.5,36 L32.5,51 L17.5,51 Z M36.5,51 L36.5,40 L47.5,40 C47.5,46.0751322 42.5751322,51 36.5,51 Z" id="Glyph" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
