@@ -255,6 +255,10 @@ ul#results-container a: hover {
     margin: 3px;
 }
 
+ul{
+    margin-left: 1rem;
+}
+
 div#toc ul li {
     margin: 8px 0px 8px 22px;
     font-size: 90%;
@@ -266,6 +270,7 @@ div#toc ul {
     border-radius: 5px;
     max-width: 300px;
     color: gray;
+    margin-left: 0px;
 }
 
 div#toc ul li ul {
