@@ -1,5 +1,6 @@
 body {
     font-size:15px;
+    padding-top: 50px;
 }
 
 .bs-callout {
@@ -305,7 +306,7 @@ div#toc >ul::before {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:10px;
+    margin-top:11px;
 }
 
 .post-content .rssfeedLink {
@@ -328,17 +329,18 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .esri{
-    margin: 0.3875rem;
     content: "";
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
-    min-height: 30px;
     min-width: 70px;
+    height: 30px;
     line-height: 0;
-    background-size: 100% 100%;
-    background-image: url('../images/esri-logo-white.svg') !important;
+}
+
+.navbar-brand{
+    padding-top: 8px;
 }
 
 /* navgoco sidebar styles (customized) */
@@ -493,7 +495,7 @@ ul#mysidebar {
 }
 
 span.projectTitle {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 10px;
     display: inline-block;
     color:white;
