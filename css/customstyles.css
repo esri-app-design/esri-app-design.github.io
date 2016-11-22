@@ -361,6 +361,11 @@ a.accordion-toggle, a.accordion-collapsed {
     margin-bottom: 15px;
 }
 
+.nav li.active.no-children {
+    margin-bottom: 1px;
+}
+
+
 .nav > li li, .nav > li li.active {
     margin: 2px 10px;
 }

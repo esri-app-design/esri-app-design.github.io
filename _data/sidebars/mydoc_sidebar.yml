@@ -2,11 +2,11 @@
 
 entries:
 - title: sidebar
-  product: 
-  version: 
+  product: Collector
+  version:
   folders:
 
-  - title:
+  - title: 
     output: pdf
     type: frontmatter
     folderitems:
@@ -21,27 +21,13 @@ entries:
 
   - title: Overview
     output: web, pdf
-    folderitems:
+    type: homepage
+    url: /mydoc_introduction.html
 
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: About the theme author
-      url: /mydoc_about.html
-      output: web, pdf
-
-    - title: Support
-      url: /mydoc_support.html
-      output: web, pdf
-
+   
   - title: Release Notes
     output: web, pdf
+    url: /mydoc_release_notes_60.html
     folderitems:
 
     - title: 6.0 Release notes
@@ -54,6 +40,7 @@ entries:
 
   - title: Installation
     output: web, pdf
+    url: /mydoc_about_ruby_gems_etc.html
     folderitems:
 
     - title: About Ruby, Gems, Bundler, etc.
@@ -70,6 +57,7 @@ entries:
 
   - title: Authoring
     output: web, pdf
+    url: /mydoc_pages.html
 
     folderitems:
     - title: Pages
@@ -106,6 +94,7 @@ entries:
 
   - title: Navigation
     output: web, pdf
+    url: /mydoc_sidebar_navigation.html
 
     folderitems:
     - title: Sidebar navigation
@@ -126,6 +115,7 @@ entries:
 
   - title: Formatting
     output: web, pdf
+    url: /mydoc_adding_tooltips.html
 
     folderitems:
     - title: Tooltips
@@ -174,6 +164,7 @@ entries:
 
   - title: Handling reviews
     output: web, pdf
+    url: /mydoc_commenting_on_files.html
 
     folderitems:
     - title: Commenting on files
@@ -186,6 +177,7 @@ entries:
 
   - title: Publishing
     output: web, pdf
+    url: /mydoc_build_arguments.html
 
     folderitems:
     - title: Build arguments
@@ -226,6 +218,7 @@ entries:
 
   - title: Special layouts
     output: web, pdf
+    url: /mydoc_kb_layout.html
 
     folderitems:
     - title: Knowledge-base layout
@@ -250,6 +243,7 @@ entries:
 
   - title: Troubleshooting
     output: web, pdf
+    url: /mydoc_troubleshooting.html
 
     folderitems:
 
@@ -259,6 +253,7 @@ entries:
 
   - title: Tag archives
     output: web
+    url: /mydoc_tag_archives_overview.html
     folderitems:
 
     - title: Tag archives overview
