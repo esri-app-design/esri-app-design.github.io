@@ -1,33 +1,26 @@
-{% if page.sidebar == "home_sidebar" %}
-{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
+{% if page.sidebar == "collector_sidebar" %}
+{% assign sidebar = site.data.sidebars.collector_sidebar.entries %}
 
-{% elsif page.sidebar == "product1_sidebar" %}
-{% assign sidebar = site.data.sidebars.product1_sidebar.entries %}
+{% elsif page.sidebar == "dashboard_sidebar" %}
+{% assign sidebar = site.data.sidebars.dashboard_sidebar.entries %}
 
-{% elsif page.sidebar == "product2_sidebar" %}
-{% assign sidebar = site.data.sidebars.product2_sidebar.entries %}
+{% elsif page.sidebar == "explorer_sidebar" %}
+{% assign sidebar = site.data.sidebars.explorer_sidebar.entries %}
 
-{% elsif page.sidebar == "mydoc_sidebar" %}
-{% assign sidebar = site.data.sidebars.mydoc_sidebar.entries %}
+{% elsif page.sidebar == "icons_sidebar" %}
+{% assign sidebar = site.data.sidebars.icons_sidebar.entries %}
 
-{% else %}
-{% assign sidebar = site.data.sidebars.home_sidebar.entries %}
+{% elsif page.sidebar == "navigator_sidebar" %}
+{% assign sidebar = site.data.sidebars.navigator_sidebar.entries %}
+
+{% elsif page.sidebar == "patterns_sidebar" %}
+{% assign sidebar = site.data.sidebars.patterns_sidebar.entries %}
+
+{% elsif page.sidebar == "workforce_mobile_sidebar" %}
+{% assign sidebar = site.data.sidebars.workforce_mobile_sidebar.entries %}
+
+{% elsif page.sidebar == "workforce_web_sidebar" %}
+{% assign sidebar = site.data.sidebars.workforce_web_sidebar.entries %}
+
 {% endif %}
 
-
-
-{% comment %}
-sidebar configuration for print files
-{% endcomment %}
-
-{% if site.product == "mydoc" %}
-{% assign sidebar_pdf = site.data.sidebars.mydoc_sidebar.entries %}
-{% endif %}
-
-{% if site.product == "product1" %}
-{% assign sidebar_pdf = site.data.sidebars.product1_sidebar.entries %}
-{% endif %}
-
-{% if site.product == "product2" %}
-{% assign sidebar_pdf = site.data.sidebars.product2_sidebar.entries %}
-{% endif %}

@@ -4,9 +4,9 @@ topnav:
 - title: Topnav
   items: 
     - title: ICONS
-      url: /p1_landing_page.html
+      url: /icons_overview.html
     - title: PATTERNS
-      url: /p1_landing_page.html
+      url: /patterns_overview.html
 
 
 #Topnav dropdowns
@@ -16,12 +16,14 @@ topnav_dropdowns:
     - title: PRODUCTS
       folderitems:
         - title: Collector
-          url: /mydoc_introduction.html
+          url: /collector_overview.html
         - title: Dashboard
-          url: /p1_landing_page.html
+          url: /dashboard_overview.html
         - title: Explorer
-          url: /p2_landing_page.html
+          url: /explorer_overview.html
         - title: Navigator
-          url: /p2_landing_page.html
-        - title: Workforce
-          url: /p2_landing_page.html
+          url: /navigator_overview.html
+        - title: Workforce Mobile
+          url: /workforce_mobile_overview.html
+        - title: Workforce Web
+          url: /workforce_web_overview.html
