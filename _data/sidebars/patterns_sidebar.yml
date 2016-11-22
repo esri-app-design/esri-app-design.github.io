@@ -5,6 +5,96 @@ entries:
   folders:
 
   - title: Overview
-    output: web, pdf
+    output: web
     type: homepage
     url: /patterns_overview.html
+
+  - title: Browsing Maps
+    url: /patterns_map_list.html
+    output: web
+
+    folderitems:
+    - title: Map List
+      url: /patterns_map_list.html
+      output: web
+
+    - title: Map Details
+      url: /patterns_map_details.html
+      output: web
+
+
+  - title: Components
+    url: /patterns_map_item.html
+    output: web
+
+    folderitems:
+    - title: Map Item
+      url: /patterns_map_item.html
+      output: web
+
+    - title: Info Panel
+      url: /patterns_info_panel.html
+      output: web
+
+
+  - title: Map Tools
+    url: /patterns_basemaps.html
+    output: web
+
+    folderitems:
+    - title: Basemaps
+      url: /patterns_basemaps.html
+      output: web
+
+    - title: Bookmarks and Places
+      url: /patterns_bookmarks_and_places.html
+      output: web
+
+    - title: GPS Tool
+      url: /patterns_gps_tool.html
+      output: web
+
+    - title: Layer List
+      url: /patterns_layer_list.html
+      output: web
+
+    - title: Legend
+      url: /patterns_legend.html
+      output: web
+
+    - title: Measure
+      url: /patterns_measure.html
+      output: web
+
+
+
+  - title: Map Interaction
+    url: /patterns_drop_pin.html
+    output: web
+
+    folderitems:
+    - title: Drop Pin
+      url: /patterns_drop_pin.html
+      output: web
+
+    - title: Identify
+      url: /patterns_identify.html
+      output: web
+
+
+  - title: Offline Maps
+    url: /patterns_offline_maps.html
+    output: web
+
+  - title: Onboarding
+    url: /patterns_onboarding.html
+    output: web
+
+  - title: Settings
+    url: /patterns_settings.html
+    output: web
+
+  - title: Sign In
+    url: /patterns_sign_in.html
+    output: web
+    
