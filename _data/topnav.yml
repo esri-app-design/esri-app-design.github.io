@@ -3,9 +3,9 @@
 topnav:
 - title: Topnav
   items: 
-    - title: ICONS
+    - title: Icons
       url: /icons_overview.html
-    - title: PATTERNS
+    - title: Patterns
       url: /patterns_overview.html
 
 
@@ -13,7 +13,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: PRODUCTS
+    - title: Products
       folderitems:
         - title: Collector
           url: /collector_overview.html

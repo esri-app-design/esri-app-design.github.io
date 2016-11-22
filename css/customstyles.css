@@ -1,5 +1,4 @@
 body {
-    font-size:15px;
     padding-top: 50px;
 }
 
@@ -428,7 +427,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 
 #bs-example-navbar-collapse-1 > ul > li > a{
-    font-size: 12px;   
+    font-size: 0.9375rem;
 }
 
 #bs-example-navbar-collapse-1 > ul > li.active{

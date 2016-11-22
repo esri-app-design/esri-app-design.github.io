@@ -1,16 +1,97 @@
 <!DOCTYPE html>
 <head>
-    {% include head.html %}
+    {% include head_calcite.html %}
 </head>
 <body>
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container-bg">
-	<div class="container">
-	</div>
-</div>
-<!-- /.container -->
-</body>
+  <body class="landing">
+    <div class="wrapper">
+
+      <!-- Main Navigation -->
+      <header class="top-nav fade-in">
+        <div class="grid-container">
+          <div class="column-24">
+            <!-- desktop sized navigation -->
+            <div class="tablet-hide">
+              <!-- logo / home -->
+              <a href="#" class="top-nav-title"><img src="images/esri-logo.svg"></a>
+              <!-- user specific dropdowns -->
+              <nav class="top-nav-list right" role="navigation" aria-labelledby="usernav">
+                {% for entry in site.data.topnav.topnav %}
+                {% for item in entry.items %}
+                {% if item.external_url %}
+                 <a class="top-nav-link" href="{{item.external_url}}" target="_blank">{{item.title}}</a>
+                {% elsif page.url contains item.url %}
+                <a class="top-nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                {% else %}
+                <a class="top-nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+              </nav>
+            </div>
+
+            <!-- tablet and mobile sized navigation -->
+            <div class="tablet-show top-nav-flex">
+              <!-- logo / home -->
+              <header class="top-nav-flex-title">
+                <a href="/" class="top-nav-title"><img src="images/esri-logo.svg"></a>
+              </header>
+              <!-- user specific actions -->
+              <nav class="top-nav-list text-right" role="navigation" aria-labelledby="usernav">
+                {% for entry in site.data.topnav.topnav %}
+                {% for item in entry.items %}
+                {% if item.external_url %}
+                 <a class="top-nav-link" href="{{item.external_url}}" target="_blank">{{item.title}}</a>
+                {% elsif page.url contains item.url %}
+                <a class="top-nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                {% else %}
+                <a class="top-nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+          </div>
+
+        </div>
+      </header>
+ 
+
+
+
+      <!-- top navigation -->
+      <div class="grid-container splash-box">
+        <div class="column-12 pre-6 leader-6">
+          <h1 class="trailer-1">App Design</h1>
+          <a href="collector_overview.html"><span class="app-icon-link inline-block font-size--3 margin-right-1"><img src="./images/Collector-SQ.svg"><br>Collector</span></a>
+          <a href="dashboard_overview.html"><span class="app-icon-link inline-block font-size--3 margin-right-1"><img src="./images/Operations-Dashboard-SQ.svg"><br>Dashboard</span></a>
+          <a href="explorer_overview.html"><span class="app-icon-link inline-block font-size--3 margin-right-1"><img src="./images/Explorer-SQ.svg"><br>Explorer</span></a>
+          <a href="navigator_overview.html"><span class="app-icon-link inline-block font-size--3 margin-right-1"><img src="./images/Navigator-SQ.svg"><br>Navigator</span></a>
+          <a href="workforce_mobile_overview.html"><span class="app-icon-link inline-block font-size--3"><img src="./images/Workforce-SQ.svg"><br>Workforce</span></a>
+          <p class="font-size-1 leader-1">Design deliverables for esri's flagship applications.</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div><!-- /.wrapper -->
+
+    <!-- get calcite-web js from the cdn (use latest version) -->
+    <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-beta.36/js/calcite-web.min.js"></script>
+
+    <!-- interactive patterns need to be initialized -->
+    <script>
+       calcite.init()
+    </script>
+  </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
 {% endif %}
