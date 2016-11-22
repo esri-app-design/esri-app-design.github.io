@@ -1,0 +1,10 @@
+entries:
+- title: sidebar
+  product: Workforce Mobile
+  version:
+  folders:
+
+  - title: Overview
+    output: web, pdf
+    type: homepage
+    url: /workforce_mobile_overview.html
