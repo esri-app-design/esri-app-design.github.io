@@ -5,6 +5,25 @@
   color:#f8f8f8;
 }
 
+.app-icon-link img{
+  width: 80px;
+  max-width: 80px;
+}
+
+.landing-info{
+  margin-top: 15%;
+}
+
+.landing-info h1{
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.landing-info p{
+  margin-top: 2.5rem;
+}
+
 html {
   overflow-y: scroll;
   height: 100%;
@@ -9537,16 +9556,16 @@ html[dir="rtl"] .margin-right-4 {
   color: #f8f8f8;
 }
 
-.landing .top-nav {
+.top-nav {
   background-color: #005e95;
   border-bottom: none;
 }
 
-.landing .top-nav .top-nav-title {
+.top-nav .top-nav-title {
   color: #f8f8f8;
 }
 
-.landing .top-nav .top-nav-link {
+.top-nav .top-nav-link {
   color: #f8f8f8;
 }
 
