@@ -1,56 +1,48 @@
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container topnavlinks">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div>
-                <a class="navbar-brand" href="index.html"><img class="esri" src="images/esri-logo-white.svg" alt="esri logo"></a>
-                <span class="projectTitle">{{site.topnav_title}}</span>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <!-- entries without drop-downs appear here -->
-                {% for entry in site.data.topnav.topnav %}
+
+
+      <!-- Main Navigation -->
+      <header class="top-nav">
+        <div class="grid-container">
+          <div class="column-24">
+            <!-- logo / home -->
+            <a href="index.html" class="top-nav-title"><img src="images/esri-logo.svg"></a>
+            <!-- user specific dropdowns -->
+            <nav class="top-nav-list right" role="navigation" aria-labelledby="usernav">
+              
+              <!-- <a class="top-nav-link" href="doc-template.html">Products</a> -->
+               {% for entry in site.data.topnav.topnav %}
                 {% for item in entry.items %}
                 {% if item.external_url %}
-                <li><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
+                 <a href="{{item.external_url}}" target="_blank">{{item.title}}</a>
                 {% elsif page.url contains item.url %}
-                <li class="active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                 <a class="top-nav-link active" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                 {% else %}
-                <li><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                 <a class="top-nav-link" href="{{item.url | remove: "/"}}">{{item.title}}</a>
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
-                <!-- entries with drop-downs appear here -->
-                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
                 {% for entry in site.data.topnav.topnav_dropdowns %}
                 {% for folder in entry.folders %}
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
+                <div class="dropdown js-dropdown margin-left-1">
+                    <a class="top-nav-link js-dropdown-toggle margin-right-1" tabindex="0" aria-haspopup="true" aria-expanded="false" href="#">Products <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 -10 32 40" class="svg-icon"><path d="M28 9v5L16 26 4 14V9l12 12L28 9z"/></svg></a>
+                    <nav class="dropdown-menu dropdown-right" role="menu">
                         {% for folderitem in folder.folderitems %}
                         {% if folderitem.external_url %}
-                        <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
-                        {% elsif page.url contains folderitem.url %}
-                        <li class="dropdownActive"><a href="{{folderitem.url |  remove: "/"}}">{{folderitem.title}}</a></li>
+                        <a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a>
                         {% else %}
-                        <li><a href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a></li>
+                        <a class="dropdown-link" href="{{folderitem.url | remove: "/"}}">{{folderitem.title}}</a>
                         {% endif %}
                         {% endfor %}
                     </ul>
                 </li>
                 {% endfor %}
                 {% endfor %}
-              
-                
-            </ul>
-        </div>
-        </div>
-        <!-- /.container -->
-</nav>
+            </nav>
+          </div><!-- /.column-24 -->
+        </div><!-- /.grid-container -->
+      </header>
+
+
+
+
