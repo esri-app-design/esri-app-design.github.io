@@ -415,7 +415,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav li.active > a {
     background-color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .nav > li.active > a  {
