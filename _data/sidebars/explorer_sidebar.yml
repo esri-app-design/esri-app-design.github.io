@@ -5,6 +5,19 @@ entries:
   folders:
 
   - title: Overview
-    output: web, pdf
+    output: web
     type: homepage
     url: /explorer_overview.html
+
+  - title: App Anatomy
+    output: web
+    url: /explorer_app_anatomy.html
+
+  - title: Markup
+    output: web
+    url: /explorer_markup.html
+
+
+  - title: Settings
+    output: web
+    url: /explorer_settings.html

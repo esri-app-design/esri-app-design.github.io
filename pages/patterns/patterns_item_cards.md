@@ -11,9 +11,10 @@ Shows simple example for the component or feature.
 
 {% include embed_invision.html 
    	height="210" 
-	ios_url="https://esri.invisionapp.com/share/B69GK2J9X#/207542360_IOS_Map_Card" 
-	android_url="https://esri.invisionapp.com/share/HJ9GK3RDK#/207542368_Android_Map_Card" 
-	windows_url="https://esri.invisionapp.com/share/P89GK3HTA#/207542365_Windows_Map_Card" 
+	ios_url="https://esri.invisionapp.com/assets/9693509/18320651/B3DB9CA67D1F189BE9F9F91488D11B07E8FD7F79B2D9B99C22824A10F5DCD646/preview" 
+	android_url="https://esri.invisionapp.com/assets/9693509/18320654/1E86C6EC350BB8784F44EEF688FEFC77D6C8D12FEBFC0815251CF21138C6E99D/preview" 
+	windows_url="https://esri.invisionapp.com/assets/9693509/18320652/588B08AC47A7930F323BFAF56CE6AF9884DBA8FBA3ACEF4DFC47C83FB3CA4510/preview" 
+	alt="map card"
 	%}
 
 ## How it works

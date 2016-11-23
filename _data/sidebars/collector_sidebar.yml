@@ -6,20 +6,16 @@ entries:
   version:
   folders:
 
-  - title: 
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage
-      output: pdf
-      type: frontmatter
-
   - title: Overview
-    output: web, pdf
+    output: web
     type: homepage
     url: /collector_overview.html
+
+  - title: App Anatomy
+    output: web
+    url: /collector_app_anatomy.html
+
+  - title: Settings
+    output: web
+    url: /collector_settings.html
+

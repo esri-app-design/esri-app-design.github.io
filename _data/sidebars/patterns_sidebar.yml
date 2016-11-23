@@ -37,12 +37,12 @@ entries:
 
 
   - title: Map Tools
-    url: /patterns_basemaps.html
+    url: /patterns_basemap_switching.html
     output: web
 
     folderitems:
-    - title: Basemaps
-      url: /patterns_basemaps.html
+    - title: Basemap Switching
+      url: /patterns_basemap_switching.html
       output: web
 
     - title: Bookmarks and Places
