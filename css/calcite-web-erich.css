@@ -6951,7 +6951,9 @@ input.input-group-input,
 }
 
 .top-nav {
-  position: relative;
+  position: fixed;
+  top:0;
+  width: 100%;
   font-weight: 400;
   font-style: normal;
   border-bottom: 1px solid #efefef;
