@@ -39,7 +39,7 @@ layout: default
     {% endunless %}
 
 
-    {% if site.github_editme_path %}
+    {% if page.allow_edits %}
 
     <a target="_blank" href="https://github.com/{{site.github_editme_path}}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 

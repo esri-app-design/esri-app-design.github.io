@@ -9,7 +9,20 @@ entries:
     type: homepage
     url: /patterns_overview.html
 
-  - title: Browsing Maps
+  - title: Components
+    url: /patterns_item_cards.html
+    output: web
+
+    folderitems:
+    - title: Item Cards
+      url: /patterns_item_cards.html
+      output: web
+
+    - title: Info Panel
+      url: /patterns_info_panel.html
+      output: web
+
+  - title: Map Browsing
     url: /patterns_map_list.html
     output: web
 
@@ -20,20 +33,6 @@ entries:
 
     - title: Map Details
       url: /patterns_map_details.html
-      output: web
-
-
-  - title: Components
-    url: /patterns_map_card.html
-    output: web
-
-    folderitems:
-    - title: Map Card
-      url: /patterns_map_card.html
-      output: web
-
-    - title: Info Panel
-      url: /patterns_info_panel.html
       output: web
 
 
