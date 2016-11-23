@@ -9,7 +9,7 @@ folder: patterns
 ## Overview
 Shows simple example for the component or feature.
 
-{% include embed_invision.html 
+{% include embed_invision-images.html 
    	height="210" 
 	ios_url="https://esri.invisionapp.com/assets/9693509/18320651/B3DB9CA67D1F189BE9F9F91488D11B07E8FD7F79B2D9B99C22824A10F5DCD646/preview" 
 	android_url="https://esri.invisionapp.com/assets/9693509/18320654/1E86C6EC350BB8784F44EEF688FEFC77D6C8D12FEBFC0815251CF21138C6E99D/preview" 
