@@ -1,6 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll'
-gem 'rouge'
+gem 'jekyll', '= 3.0.3'
+gem 'github-pages', '= 54'
+
+group :jekyll_plugins do
+  gem 'algoliasearch-jekyll', '= 0.7.0'
+end
 
