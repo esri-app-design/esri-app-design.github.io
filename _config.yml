@@ -1,3 +1,10 @@
+gems:
+  - algoliasearch-jekyll
+
+algolia:
+  application_id: 'OVCNO8EL1P'
+  index_name: 'jekyll-index' 
+
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -8,7 +15,7 @@ topnav_title: App Design
 site_title: App Design
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: Esri Inc
 # this appears in the footer
 
 github_editme_path: esri-app-design/esri-app-design.github.io/blob/reviews/pages/
@@ -68,6 +75,8 @@ defaults:
       comments: true
       search: false
       sidebar: patterns_sidebar
+      allow_edits: false
+      toc: false
 
 # these are defaults used for the frontmatter for these file types
 
@@ -89,3 +98,10 @@ url: http://www.esri.com
 
 
 google_analytics: UA-87926805-1
+
+
+
+
+
+
+
