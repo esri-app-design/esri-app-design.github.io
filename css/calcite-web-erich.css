@@ -6950,6 +6950,10 @@ input.input-group-input,
   animation-duration: 0.5s;
 }
 
+body {
+    padding-top: 69px;
+}
+
 .top-nav {
   position: fixed;
   top:0;
@@ -6979,7 +6983,7 @@ input.input-group-input,
   font-size: 1.2019rem;
   line-height: 1.55rem;
   float: left;
-  margin-right: 1.5rem;
+  margin-right: 0rem;
   padding: 1.125rem 0;
   line-height: 1.5rem;
   color: #4c4c4c;
